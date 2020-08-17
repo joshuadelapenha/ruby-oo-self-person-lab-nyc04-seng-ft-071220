@@ -9,6 +9,11 @@ class Person
     @happiness = 8
   end 
   
+  def happiness=(num)
+    @happiness=num
+    @happiness=10 if 
+  
+  end
   
   
   
