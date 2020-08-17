@@ -24,11 +24,11 @@ class Person
   end
   
   def happy?
-    happiness > 7
+    @happiness > 7
   end
 
   def clean?
-    hygiene > 7
+    @hygiene > 7
   end
   
   def get_paid(num)
