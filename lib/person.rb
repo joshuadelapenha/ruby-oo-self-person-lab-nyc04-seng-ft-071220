@@ -23,4 +23,12 @@ class Person
     @hygiene = 0 if @hygiene < 0 
   end
   
+  def happy?
+    happiness > 7
+  end
+
+  def clean?
+    hygiene > 7
+  end
+  
 end
