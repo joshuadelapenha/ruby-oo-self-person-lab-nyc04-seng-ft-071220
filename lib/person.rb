@@ -7,6 +7,8 @@ class Person
     @bank_account=25
   end 
   
+  def bank_account
+  end
   
   
 end
