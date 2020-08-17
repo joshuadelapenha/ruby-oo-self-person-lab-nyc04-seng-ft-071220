@@ -41,6 +41,9 @@ class Person
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
+  def work_out
+    
+  end
   
   
 end
