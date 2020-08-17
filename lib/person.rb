@@ -58,7 +58,7 @@ class Person
       friend.happiness -= 3
       self.happiness -= 3
       "blah blah partisan blah lobbyist"
-    elseif topic == "weather"
+    elsif topic == "weather"
       friend.happiness += 1
       self.happiness += 1
       "blah blah sun blah rain"
