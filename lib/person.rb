@@ -32,6 +32,7 @@ class Person
   end
   
   def get_paid(num)
+    bank_account += num
   end
   
 end
