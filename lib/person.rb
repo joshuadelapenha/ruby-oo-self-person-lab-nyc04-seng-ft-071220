@@ -32,7 +32,7 @@ class Person
   end
   
   def get_paid(num)
-    bank_account += num
+    @bank_account += num
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
