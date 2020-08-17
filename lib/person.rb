@@ -53,7 +53,15 @@ class Person
     "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
   
-  def
+  def start_conversation(friend, topic)
+    if topic == "politics"
+      friend.happiness -= 3
+      self.happiness -= 3
+    elseif topic == weather
+      friend.happiness += 1
+      self.happiness += 1
+    else
+    end 
   end
   
   
