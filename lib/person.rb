@@ -53,5 +53,8 @@ class Person
     "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
   
+  def
+  end
+  
   
 end
