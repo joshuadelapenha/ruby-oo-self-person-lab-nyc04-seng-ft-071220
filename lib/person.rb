@@ -36,7 +36,6 @@ class Person
     "all about the benjamins"
   end
   
-  def take
   
   
   
